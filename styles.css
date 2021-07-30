@@ -17,7 +17,7 @@ h1 {
   font-weight: bolder;
   font-family: 'Wallpoet', cursive;
   font-size: 75px;
-  text-shadow: 2px 2px 5px rgb(8, 156, 5);
+  text-shadow: 2px 2px 5px rgb(50, 5, 156);
 }
 
 h5 {
@@ -56,6 +56,10 @@ nav .navbar{
   padding-bottom: 20px;
   position: relative;
   overflow-x: hidden;
+}
+.variety{
+  color: goldenrod;
+  font-size: 80px;
 }
 .text a{
   font-size: 20px;
@@ -171,11 +175,11 @@ td,th{
   color: white;
 }
 .choise h2{
-  color:orange;
+  color:rgb(212, 0, 255);
   text-align: left;
 }
 #your-orders{
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 30px;
 }
 
@@ -203,14 +207,14 @@ td,th{
 }
 #regards{
   text-align: center;
-  color: aliceblue;
+  color: rgb(255, 241, 240);
 }
 #information{
   padding-top: 5%;
   font-size: 22px;
   padding-right: 8%;
   padding-left: 5%;
-  color: #ffa500;
+  color: #001aff;
 }
 @media only screen and (max-width: 485px){
   .flex-xs-column {
@@ -231,7 +235,7 @@ td,th{
   width: 94%;
 }
 .order-overlay{
-  background-color: rgba(0, 0, 0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   margin-left: 2%;
   margin-right: 2%;
   padding-right: 16px;
