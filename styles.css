@@ -74,7 +74,7 @@ nav .navbar{
   font-weight: 800;
 }
 .controls-top h2{
-  color: orange(5, 172, 5);
+  color: rgb(131, 5, 156)
   padding-top: 40px;
   padding-bottom: 20px;
   font-weight: bolder;
@@ -89,7 +89,7 @@ nav .navbar{
 
 }
 .about-pic {
-  background-color: #ffa500;
+  background-color: #fffb00;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
