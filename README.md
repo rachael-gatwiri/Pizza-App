@@ -32,7 +32,7 @@ https://rachael-gatwiri.github.io/Pizza-Yummy-Yummy/
 | :---         |          ---: |
 | Pizza Flavour   | `eg crust pizza`|
 | Pizza size     | `eg medium`   |
-| Pizza crust    | `eg stuffed pizzat`   |
+| Pizza crust    | `eg stuffed pizza`   |
 | Pizza topping    | `eg Bacon`  |
 | Number of pizzas   | `eg 6`   |
 | Delivery mode   | `home delivery`   |
@@ -41,7 +41,7 @@ https://rachael-gatwiri.github.io/Pizza-Yummy-Yummy/
 All toppings has the same price regardless of the pizza size
 
 ## License:
-
+Copyright (c) 2021 Rachael
 
 ## Collaborate:
 To contribute to Pizza pap!, reach me on `rachaelmuga1@gmail.com`.
