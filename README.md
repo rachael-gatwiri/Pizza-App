@@ -44,4 +44,4 @@ All toppings has the same price regardless of the pizza size
 Copyright (c) 2021 Rachael
 
 ## Collaborate:
-To contribute to Pizza pap!, reach me on `rachaelmuga1@gmail.com`.
+To contribute to Pizza Yummy Yummy!, reach me on `rachaelmuga1@gmail.com`.
