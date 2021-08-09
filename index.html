@@ -1,306 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144351462-1"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-144351462-1');
-</script>
+<html>
+    <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Pizza Yummy Yummy</title>
-  <link rel="icon" href="pizza icon.jpg" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Cormorant|Eczar|El+Messiri|Itim|Sancreek|Wallpoet&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="mdb.mim.css">
-  <link rel="stylesheet" href="wicked.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="bootstrap.css/">
+  <title>Pizza app</title>
+  <link rel="icon" href="/othersicon.jpg" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/bootstrap.css/">
+  <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <header>
+            <div id="header"> 
+                <div class="pizza">
+                    <img src="/otherslogo.jpg" height="100px">
+                     <h1 class="bar1">Pizza</h1>
+                     <h2 class="bar2">App</h2>
+                </div>
+                <div class="nav">
+                    <a href="index.html"><h1>Home</h1></a>
+                    <a href="/variety.html"><h1>Varieties</h1></a>
+                    <a href="/delivery.html"><h1>Delivery</h1></a>
+                    <a href="/aboutus.html"><h1>About Us</h1></a>
+                    <a href="/contactus.html"><h1>Contact us</h1></a>
+                </div>
+            </div>
+        </header>
 
-</head>
-<body>
-  <header>
-    <div class="view landing">
-      <div id="overlay">
-          <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
-            <a class="navbar-brand" href="#">PIZZA YUMMY YUMMY</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#about_us">About Us</a>
-                </li> -->
-                <li class="nav-item">
-                  <a class="nav-link" href="#variety">Our Varieties</a>
+        <div class="landing" id="ord">
+        <h1 class="title">PIZZA  APP</h1><br><br><br>
+        <h2 class="subtitle">Welcome to the best pizza shop in town!!!</h2><br><br>
+        <a class="btn btn-pink button floater" id="order" href="/delivery.html">  Order Now!</a>
+        </div>
+        <p class="par">We offer the most delicious pizza in the country!!!</p>
+        <p class="para">We offer the following varieties:</p>
+            
+            <ol>
+                <li>
+                    Buffallo pizza
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact Us</a>
-                </li>    
-              </ul>
-            </div>  
-          </nav>
-          <div class="mask rgba-black-light align-items-center">
-            <div class="container" id="head">
-              <div class="row">
-                <div class="col-md-12 mb-4 white-text text-center text">
-                  <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 pulse"><strong>Pizza Yummy Yummy</strong></h1>
-                  <h5 class="text-uppercase mb-4 gold-text floater"><strong>THE BEST PIZZA YOU'LL EVER TASTE!</strong></h5> 
+                <li>
+                    California pizza
+                </li>
+                <li>
+                    Cheese pizza
+                </li>
+                <li>
+                    Italian pizza
+                </li>
+            <ol>
+                <div id="var">
+        <p class="para">Click the following link to look at the images sample of our varieties: <a class="var" href="/variety.html">variety samples</a></p>
+</div>
 
-    <p>Order your pizza and we wil deliver it to your location.</p>
-                  <a class="btn btn-pink button floater" href="#make-order">  Order Now!</a>
+<div id="foot">
+    <footer class="text-center pt-5">
+    
+        <h2>Contact Details</h2>
+            <h4>Find Us on</h4>
+            <div class="row fs-7">
+                <div class='col'>
+                    <img src="/twit.png" alt="" height="50" width="50">
+                        @Pizza_App
+                    <br><br>
+                    <img src="/fb.jpg" alt="" height="50" width="50">
+                        @Pizza_App
+                    <br><br>
+                    <img src="/ig.jpg" alt=""  height="50" width="50">
+                        @Pizza_App
                 </div>
-              </div>
-            </div>
+                <div class="col">
+                    <img src="/phone.jpeg" alt="" height="50" width="50">
+                        +1234567890
+                    <br><br>
+                    <img src="/mail.jpg" alt="" height="50" width="50">
+                        pizzaapp@bestpizza.com
           </div>
-          <div class="socials">
-            <a href=""><span class="fab fa-facebook icon_facebook"></span></a>
-            <a href=""><span class="fab fa-twitter icon_twitter"></span></a>
-            <a href=""><span class="fab fa-google-plus icon_googlep"></span></a>
-            <a href=""><span class="fab fa-linkedin icon_linkedin"></span></a>
-        </div>
-          <div class="arrow bounce"> <a href="#variety"> <img src="arrow.icon.jpg" alt=" arrow"width="40px"></a></div>
-      </div>
+          </div>          
+               
+ <div class="footer">&#169;2021| Pizza App
+    </footer>
     </div>
-  </header>
-  
-   <div class="container-fluid section" id="about-us">
-    <div class="col-sm-12 d-flex flex-xs-column">
-      <div class="col-sm-7 img text-center about-img">
-          <div class="about-pic">
-            <img src="rachael.gif" alt="about-us">
-          </div>
-      </div>
-      <div class="col-sm-5 align-items-center">
-        <div class="content">
-          <h3>What is Pizza Yummy Yummy?</h3>
-          <p>Pizza Yummy Yummy is a Restaurant that has been in pizza business for over 30years now and offers a very unique atmosphere for customers in 
-            addition to home delivery services for all pizza orders.We know that pizza is a family meal 
-            which is popular around the world and that has resulted in a large number of chains of pizza 
-            restaurants but non of them is the best than <strong>Pizza Yummy Yummy</strong>.</p>
-        </div>
-      </div>
-    </div>
-</div> -->
-
-  <div class="container carousel slide carousel-multi-item" data-ride="carousel" id="variety">
-    <div class="controls-top "> 
-      <h2 class="variety">Our Varieties</h2>
-    </div>
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <div class="col-md-4">
-          <div class="card mb-2">
-            <img class="card-img-top" src="pizza1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Cheese pizza</h5>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-md-4">
-          <div class="card mb-2">
-            <img class="card-img-top" src="pizza2.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Pepperon Pizza</h5>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-md-4">
-          <div class="card mb-2">
-            <img class="card-img-top" src="pizza3.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">360 degree pizza</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="col-md-4">
-          <div class="card mb-2">
-            <img class="card-img-top" src="pizza4.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Fresh Pizza</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-2">
-            <img class="card-img-top" src="pizza5.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">crust Pizza</h5>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-md-4">
-          <div class="card mb-2">
-            <img class="card-img-top" src="pizza6.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title"> Deluxe Pizza</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container-fluid order" id="make-order">
-    <div class="order-overlay">
-      <div class="controls-top text-center" id="Order-now"> 
-        <h2>Order Here</h2>
-      </div>
-      <h2>Order your pizza here and we will deliver it to you at your door step!</h2>
-      <div class="row">
-          <div class="col-sm-5">
-            <form action="">
-                <label for="select">Select Your Flavor</label>
-                <select class="browser-default custom-select custom-select-md mb-3 name">
-                  <!-- <option selected value="choose">Choose your flavor</option> -->
-                  <option value="Cheese pizza">Cheese Pizza</option>
-                  <option value="Pepperon Pizza">Pepperon Pizza</option>
-                  <option value="360 degree Pizza">360 degree Pizza</option>
-                  <option value="Fresh Pizza">Fresh Pizza</option>
-                  <option value="crust Pizza">crust Pizza</option>
-                  <option value="Deluxe Pizza">Deluxe Pizza</option>
-                </select>
-              <label for="select">Select Size</label>
-              <select class="browser-default custom-select custom-select-md mb-3" id="size">
-                <option selected value="0">Select size here</option>
-                <option value="large">Large -- sh. 2000</option>
-                <option value="medium">Medium -- sh. 1000</option>
-                <option value="small">Small -- sh. 500</option>
-              </select>
-              <label for="crust">Choose your favorite Crust!</label>
-                <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-                    <option selected value="0">Select your preferred crust!</option>
-                  <option value="Crispy">Crispy -- sh. 300</option>
-                  <option value="Stuffed">Stuffed -- sh. 150</option>
-                  <option value="Gluten-free">Gluten-free -- sh. 200</option>
-                </select>
-              <label for="Toppings">Select Your Toppings at sh. 70 each</label><br>
-                <div class="custom-control custom-checkbox custom-control-inline">
-                  <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
-                  <label class="custom-control-label" for="Sausage">veg Sausage</label>
-                </div>
-                <div class="custom-control custom-checkbox custom-control-inline">
-                  <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
-                  <label class="custom-control-label" for="Bacon">Bacon</label>
-                </div>
-                <div class="custom-control custom-checkbox custom-control-inline">
-                  <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
-                  <label class="custom-control-label" for="Mushrooms">Burger</label>
-                </div>
-                <br><br>
-              <button type="submit" class="btn btn-orange proceed">Proceed</button>
-              
-            </form>
-          </div>
-          <div class="col-sm-7">
-            <div id="information">
-              <p>Your order will be processed and delivered within two hours of placing.</p>
-              <p>Make sure you have the total amount for the order during order delivery.</p>
-              <p>Incase of any comment of complaint, Please reach out to us as fast as possible.</p>
-              <p id="regards">Regards, Management</p>
-            </div>
-            <div class="choise">
-              <h2>Your Order is:</h2>
-              <div id="your-orders">
-                <table class="table table-sm  pizzatable">
-                  <thead>
-                    <tr>
-                      <th scope="col">Name</th>
-                      <th scope="col">Size</th>
-                      <th scope="col">Crust</th>
-                      <th scope="col">Topping</th>
-                      <th scope="col">Total</th>
-                    </tr>
-                  </thead>
-                  <tbody id="ordersmade">
-                    <tr>
-                      <td id="pizzaname"></td>
-                      <td id="pizzasize"></td>
-                      <td id="pizzacrust"></td>
-                      <td id="pizzatopping"></td>
-                      <td id="totals"></td>
-                    </tr>                  
-                  </tbody>
-                </table>
-                <p id="pizzatotal"></p>
-                <p id="totalbill"></p> 
-                <p id="addedprice">Delivery will cost sh. 450</p>
-                <p id="finallmessage"></p>
-              </div>
-              <button class="btn btn-orange addPizza">Add Pizza</button>
-              <button class="btn btn-orange" id="checkout">Checkout</button>
-              <button class="btn btn-orange deliver">Home delivery?</button>
-            </div>
-            <div class="delivery">
-                <form action="">
-                  <div class="form-group">
-                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                    <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
-                    <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                    <button class="btn btn-orange" id="final-order">Place Order</button>
-                  </div>
-                </form>
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid bg-default" id="contact">
-      <div class="controls-top "> 
-          <h2>Contact Us</h2>
-        </div>
-      <div class="row" id="contactdetails">
-        <div class="col-md-1">
-           
-        </div>
-        <div class="col-md-3 text-justify">
-          <h2>Location</h2>
-          <p>Pizza Yummy Yummy</p>
-          <p>Ogeo hall | Ogeo Tokyo</p>
-          <p>0123,Tokyo </p>
-        </div>
-        <div class="col-md-3">
-          <h2>Customer Care</h2>
-           <p>rachaelmuga1@gmail.com</p>
-           <p>Tell: 0123456789</p> 
-           <p>Phone: +25471234567890</p>
-        </div>
-        <div class="col-md-4">
-            <div class="mapouter">
-              <div class="gmap_canvas">
-              </div>
-             
-            </div>
-        </div>
-        <div class="col-md-1"></div>
-      </div>
-      <div class="row">
-        <div class="container text-center footer">
-          <p>&copy; 2021| Pizza Yummy Yummy</p>
-        </div>
-      </div>
-  </div>
-  <script src="mdb.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
-  <script src="jquery.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="/jquery.js"></script>
+    <script src="/scripts.js"></script>
+    </body>
 </html>
