@@ -45,7 +45,7 @@ background-color: pink;
  }
 
  .landing{
-    background-image: url("/othersbackground.jpg");
+    background-image: url("othersbackground.jpg");
     padding-bottom: 200px;
     background-position: center center;
     background-size: cover;
@@ -160,7 +160,7 @@ figcaption {
     padding-left: 6%;
   }
   .deliverybackground{
-      background-image: url(/otherswall1.jpg);
+      background-image: url(otherswall1.jpg);
 
   }
   .whatyouordered{
