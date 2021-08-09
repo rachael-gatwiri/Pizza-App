@@ -48,7 +48,7 @@ background-color: pink;
  }
 
  .landing{
-    background-image: url(othersbackground.jpg);
+    background-image: url(/othersbackground.jpg);
     padding-bottom: 200px;
     background-position: center center;
     background-size: cover;
