@@ -160,7 +160,7 @@ figcaption {
     padding-left: 6%;
   }
   .deliverybackground{
-      background-image: url(otherswall1.jpg);
+      background-image: url("otherswall1.jpg");
 
   }
   .whatyouordered{
