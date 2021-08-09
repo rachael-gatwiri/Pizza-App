@@ -39,16 +39,13 @@ font-size: 30px;
 margin-left: 600px;
 background-color: pink;
  }
- #ord{
-
- }
  #ord a:hover{
      color: purple;
      background-color: indigo;
  }
 
  .landing{
-    background-image:url(othersbackground.jpg);
+    background-image: url(othersbackground.jpg);
     padding-bottom: 200px;
     background-position: center center;
     background-size: cover;
